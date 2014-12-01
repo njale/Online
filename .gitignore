@@ -1,0 +1,60 @@
+#Visual Studio files
+ipch/
+obj/
+bin/
+*.obj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+Ankh.NoLoad
+
+#Tooling
+_ReSharper*/
+*.resharper
+*.ReSharper.user
+[Tt]est[Rr]esult*
+StyleCop.Cache
+
+#Subversion files
+.svn/
+
+# Office Temp Files
+~$*
+
+# Eclipse
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Git Skeleton resources
+/tmp/
