@@ -1,0 +1,62 @@
+﻿body {
+    background-color: #e0e0ff;
+}
+
+.titlebar {
+    background-color: black;
+    padding: 10px;
+}
+
+    .titlebar .help {
+        float: right;
+        font-size: 180%;
+        font-weight: bold;
+    }
+
+.titlebar-gradient {
+    height: 15px;
+    background: linear-gradient(black, #e0e0ff);
+}
+
+.header {
+    color: gray;
+    font-weight: 700;
+    font-family: "Open Sans", arial, verdana, sans-serif;
+    font-size: large;
+}
+
+.footer-left {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-right {
+    position: absolute;
+    float: right;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.info {
+    background-color: #eeeeee;
+    overflow: auto;
+}
+.body-font {
+    font-family: "Open Sans", arial, verdana, sans-serif;
+}
+
+
+.Update-button {
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.action-button {
+    float: right;
+}
+
+#route {
+    padding-top: 5px;
+}

@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VegInfo</title>
+
+    <!-- Statnett references -->
+    <link href="css/index.css" rel="stylesheet" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="titlebar">
+        <img src="images/VegVesen-logo.png" />
+        <span class="help">
+            <img src="images/Sign-Close-icon.png"/>
+        </span>
+    </div>
+    <div class="titlebar-gradient"></div>
+    <br />
+    <span class="header">Posisjons informasjon</span>
+    <div class="info body-font">
+        <table>
+            <tr>
+                <td>Fylke</td>
+                <td>SØR-TRØNDELAG</td>
+            </tr>
+            <tr>
+                <td>Kommune</td>
+                <td>TRONDHEIM</td>
+            </tr>
+            <tr>
+                <td>Vegreferanse</td>
+                <td>163086</td>
+            </tr>
+            <tr>
+                <td>Vegnavn</td>
+                <td>KV 4695 HP1 m178</td>
+            </tr>
+            <tr>
+                <td>Lengdegrad</td>
+                <td>10.536423426959361</td>
+            </tr>
+            <tr>
+                <td>Breddegrad</td>
+                <td>63.41487102189043</td>
+            </tr>
+            <tr>
+                <td>Avvik</td>
+                <td>10-100m</td>
+            </tr>
+        </table>
+        <button class="Update-button"type="submit"><img src="images/Update-Small.png" alt="Submit"></button>
+        
+    </div>
+
+    <br />
+    <div class="header">Kjørerute</div>
+    <form class="info body-font" id="route" action="">
+        <label>Vegreferanse</label>
+        <input type="text" />
+        <button class="Update-button" type="submit"><img src="images/View-icon.png" alt="Submit"></button>
+    </form>
+    
+    <br/>
+    <div>
+        <button type="submit"><img src="images/13-Camera-icon.png" alt="Submit"></button>
+    </div>
+    
+    <div class="footer-right">
+        <img src="images/preferences-icon.png" />
+        <img src="images/Button-Help-icon.png" />
+    </div>
+
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
