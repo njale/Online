@@ -2,6 +2,7 @@
 ipch/
 obj/
 bin/
+bld/
 *.obj
 *.user
 *.aps
