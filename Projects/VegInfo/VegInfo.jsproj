@@ -110,6 +110,14 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\OpenSans.css" />
+    <Content Include="Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="images\13-Camera-icon.png" />
     <Content Include="images\Button-Help-icon.png" />
     <Content Include="images\preferences-icon.png" />
@@ -120,6 +128,7 @@
     <Content Include="images\View-icon.png" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="pages\startup.html" />
     <Folder Include="merges\ios\" />
     <Content Include="merges\windows\scripts\platformOverrides.js" />
     <Content Include="merges\windows\scripts\winstore-jscompat.js" />
@@ -138,12 +147,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="index.html" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\LICENSE" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\plugin.xml" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\README.md" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\src\android\libs\jshybugger-library.jar" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\src\android\org\jshybugger\cordova\JsHybuggerPlugin.java" />
-    <Content Include="plugins\jshybugger-plugin-4.5.3\www\jsHybuggerLoader.js" />
     <Content Include="plugins\org.apache.cordova.geolocation\.fetch.json" />
     <Content Include="plugins\org.apache.cordova.geolocation\CONTRIBUTING.md" />
     <Content Include="plugins\org.apache.cordova.geolocation\doc\de\index.md" />

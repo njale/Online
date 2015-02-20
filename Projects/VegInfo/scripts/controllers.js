@@ -2,9 +2,33 @@
 
 /* Controllers */
 
-var vegInfoControllers = angular.module('vegInfoControllers', []);
+var app = angular.module('vegInfoApp', []);
 
-vegInfoControllers.controller('LocationInfoCtrl', ['$scope', function ($scope) {
+//app.controller('LocationInfoCtrl', ['$scope', 'locationConfig', function ($scope, locationConfig) {
+app.controller('LocationInfoCtrl', ['$scope', function ($scope) {
+
+    var onSuccess = function (position) {
+        alert('Latitude: ' + position.coords.latitude + '\n' +
+            'Longitude: ' + position.coords.longitude + '\n' +
+            'Accuracy: ' + position.coords.accuracy);
+    };
+
+    // onError Callback receives a PositionError object
+    function onError(error) {
+        alert('code: ' + error.code + '\n' +
+              'message: ' + error.message + '\n');
+    }
+    
+    $scope.message = "Starting up again";
+
+    //var locationOptions = {
+    //    timeout: locationConfig.timeout,
+    //    enableHighAccuracy: locationConfig.enableHighAccuracy
+    //};
+
+    //navigator.geolocation.getCurrentPosition(onSuccess, onError, locationOptions);
+    navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    
     $scope.Fylke = "AKERSHUS";
     $scope.Kommune = 'BÆRUM';
     $scope.Vegreferanse = "163086";
@@ -14,24 +38,15 @@ vegInfoControllers.controller('LocationInfoCtrl', ['$scope', function ($scope) {
     $scope.Avvik = "20-50m";
 }]);
 
-//vegInfoControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', '$http',
-//  function ($scope, $routeParams, $http) {
-//      $http.get('phones/' + $routeParams.phoneId + '.json').success(function (data) {
-//          $scope.phone = data;
-//          $scope.mainImageUrl = data.images[0];
-//      });
+app.controller('StartupCtrl', [
+    '$scope', function ($scope) {
+        $scope.message = "Starting up";
+    }
+]);
 
-//      $scope.setImage = function(imageUrl) {
-//          $scope.mainImageUrl = imageUrl;
-//      }
-//  }]);
+app.controller('notFoundController', [
+    '$scope', function ($scope) {
+        $scope.message = "Not found";
+    }
+]);
 
-//vegInfoControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone', function ($scope, $routeParams, Phone) {
-//    $scope.phone = Phone.get({ phoneId: $routeParams.phoneId }, function (phone) {
-//        $scope.mainImageUrl = phone.images[0];
-//    });
-
-//    $scope.setImage = function (imageUrl) {
-//        $scope.mainImageUrl = imageUrl;
-//    }
-//}]);
