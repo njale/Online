@@ -1,0 +1,24 @@
+{
+  "name": "Resources",
+  "description": "Shared dependencies for Apache Cordova projects",
+  "version": "1.0.0",
+  "homepage": "https://github.com/njale/Online",
+  "authors": [
+    "Njål Eide <njal.eide@evry.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.13",
+    "bootstrap": "~3.3.2",
+    "angular-resource": "~1.3.13",
+    "angular-route": "~1.3.13"
+  }
+}

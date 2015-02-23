@@ -1,0 +1,7 @@
+bower init 	: Create a new bower.json interactively
+
+bower install <package> --save   : Install package and update dependency in bower.json
+
+bower update	: Update dependencies
+
+
