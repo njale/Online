@@ -1,0 +1,956 @@
+--------- beginning of /dev/log/main
+E/SMD     (  243): DCD OFF
+E/SMD     (  243): DCD OFF
+D/AndroidRuntime(29801): 
+D/AndroidRuntime(29801): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(29801): CheckJNI is OFF
+D/AndroidRuntime(29801): setted country_code = THAILAND
+D/AndroidRuntime(29801): setted countryiso_code = TH
+D/AndroidRuntime(29801): setted sales_code = THL
+D/AndroidRuntime(29801): readGMSProperty: start
+D/AndroidRuntime(29801): readGMSProperty: already setted!!
+D/AndroidRuntime(29801): readGMSProperty: end
+D/AndroidRuntime(29801): addProductProperty: start
+D/dalvikvm(29801): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(29801): Added shared lib libjavacore.so 0x0
+D/dalvikvm(29801): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(29801): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(29801): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+E/SMD     (  243): DCD OFF
+D/dalvikvm(29801): Note: class Landroid/app/ActivityManagerNative; has 184 unimplemented (abstract) methods
+D/AndroidRuntime(29801): Calling main entry com.android.commands.pm.Pm
+--------- beginning of /dev/log/system
+V/PackageManager(  737): Install from ADB
+D/PackageManager(  737): START_PACKAGE_INSTALL: observer{1107513416}
+D/PackageManager(  737):           PackageURI{file:///data/local/tmp/CordovaApp-debug.apk}
+D/PackageManager(  737): [MSG] INIT_COPY: observer{1107513416}
+D/PackageManager(  737):           idx{0}
+D/PackageManager(  737):           for_user{UserHandle{-1}}
+D/PackageManager(  737): Trying to bind to DefaultContainerService
+I/SELinux (29820): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29820):  
+I/SELinux (29820): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29820):  
+I/SELinux (29820): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29820):  
+I/SELinux (29820):  
+E/dalvikvm(29820): >>>>> Normal User
+E/dalvikvm(29820): >>>>> com.android.defcontainer [ userId:0 | appId:10002 ]
+I/ActivityManager(  737): Start proc com.android.defcontainer for service com.android.defcontainer/.DefaultContainerService: pid=29820 uid=10002 gids={50002, 1028, 1015, 1023, 2001, 1035}
+D/TimaKeyStoreProvider(29820): in addTimaSignatureService
+D/TimaKeyStoreProvider(29820): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29820): Added TimaKesytore provider
+D/ActivityThread(29820): handleBindApplication:com.android.defcontainer
+D/dalvikvm(  232): GC_EXPLICIT freed 43K, 60% free 6662K/16484K, paused 3ms+3ms, total 31ms
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=29820, uid=10002 requires android.permission.INTERACT_ACROSS_USERS
+D/PackageManager(  737): onServiceConnected
+D/PackageManager(  737): [MSG] MCS_BOUND
+D/PackageManager(  737): [MSG] MCS_BOUND: observer{1107513416}
+D/PackageManager(  737):           for_user{UserHandle{-1}}
+D/dalvikvm(  232): GC_EXPLICIT freed <1K, 60% free 6662K/16484K, paused 2ms+2ms, total 16ms
+D/dalvikvm(  232): GC_EXPLICIT freed <1K, 60% free 6662K/16484K, paused 1ms+2ms, total 15ms
+D/PersonaManagerService(  737): needVerificationForPackage  
+D/PersonaManagerService(  737): needVerificationForPackage io.cordova.StatensVegvesen
+D/PersonaManagerService(  737): needVerificationForPackage getting setupWizardApkLocation
+D/PersonaManagerService(  737): needVerificationForPackage setupWizardApkLocation is null
+D/PersonaManagerService(  737): needVerificationForPackage setupWizardApkLocation == null 
+D/PersonaManagerService(  737): needVerificationForPackage getting handlerApkLocation
+D/PersonaManagerService(  737): needVerificationForPackage handlerApkLocation is null
+D/PersonaManagerService(  737): needVerificationForPackage handlerApkLocation == null 
+W/ActivityManager(  737): No content provider found for permission revoke: file:///data/local/tmp/CordovaApp-debug.apk
+D/PackageManager(  737): send PRE_INSTALL
+D/PackageManager(  737): [MSG_PRE_INSTALL] PRE_INSTALL for observer{1107513416}
+D/PackageManager(  737): start preCopy
+D/PackageManager(  737): copyApk
+D/PackageManager(  737): copy to /data/app/vmdl-1246337309.tmp
+D/PackageManager(  737): Found 2 verifiers for intent Intent { act=android.intent.action.PACKAGE_NEEDS_VERIFICATION dat=file:///data/local/tmp/CordovaApp-debug.apk typ=application/vnd.android.package-archive flg=0x1 } with 0 optional verifiers
+D/PackageManager(  737): sendOrderedBroadcastToRequiredVerifier: uid=10021
+D/Finsky  (25216): [1] PackageVerificationReceiver.onReceive: Verification requested, id = 3
+I/HarmonyEASService(  737): Updating for all 1
+W/ActivityManager(  737): No content provider found for permission revoke: file:///data/local/tmp/CordovaApp-debug.apk
+I/PackageManager(  737): remove MCS_UNBIND message and Posting MCS_UNBIND 10 secs later
+I/PackageManager(  737): Copying native libraries to /data/app-lib/vmdl-1246337309
+D/PackageManager(  737): start preCollectCert
+E/PackageManager(  737): parse pkg : /data/app/vmdl-1246337309.tmp
+D/Finsky  (25216): [1] WorkerTask.onPreExecute: Verification Requested for id = 3, data=file:///data/local/tmp/CordovaApp-debug.apk flags=114 fromVerificationActivity=false
+I/PackageManager(  737): Running dexopt on: io.cordova.StatensVegvesen
+E/PackageManager(  737): dexopt start
+D/dalvikvm(25216): GC_CONCURRENT freed 1070K, 56% free 7334K/16484K, paused 3ms+2ms, total 28ms
+D/PackageManager(  737): Time to collect certificates: 0.177 seconds
+D/dalvikvm(29834): DexOpt: load 35ms, verify+opt 101ms, 768716 bytes
+D/PackageManager(  737): Time to dexopt: 0.233 seconds
+E/PackageManager(  737): dexopt end
+W/ApplicationPackageManager(25216): getCSCPackageItemText()
+I/qtaguid (25216): Failed write_ctrl(u 59) res=-1 errno=22
+I/qtaguid (25216): Untagging socket 59 failed errno=-22
+W/NetworkManagementSocketTagger(25216): untagSocket(59) failed with errno -22
+I/ElegantRequestDirector(25216): I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
+I/ElegantRequestDirector(25216): Retrying request
+D/STATUSBAR-NetworkController(  935): onSignalStrengthsChanged signalStrength=SignalStrength: 14 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 gsm|lte 0x4 level=4
+W/AlarmManager(  737): Set alarm: type= 2 triggerAtTime= 5855316 , called by : com.google.android.gms, intent:Intent { act=com.google.android.gms.nlp.ALARM_WAKEUP_LOCATOR }
+V/AlarmManager(  737): AlarmManager_setLocked to type=3 curELAPSED = 5834542 as =5884 ans=482000000
+V/AlarmManager(  737): AlarmManager_setLocked to type=2 curELAPSED = 5834542 as =6106 ans=497000000
+V/AlarmManager(  737): AlarmManager_setLocked to type=2 curELAPSED = 5834545 as =5855 ans=316000000
+E/Watchdog(  737): !@Sync 194
+D/dalvikvm(25216): GC_CONCURRENT freed 932K, 56% free 7303K/16484K, paused 3ms+4ms, total 25ms
+D/STATUSBAR-NetworkController(  935): refreshSignalCluster: data=-1 bt=false
+D/Finsky  (25216): [1] 2.onResponse: Verification id=3 response=0
+D/PackageManager(  737): [MSG] PACKAGE_VERIFIED: observer{1107513416}
+D/PackageManager(  737):           verificationId{3}
+D/PackageManager(  737): sendOrderedBroadcastToRequiredVerifier: uid=10016
+I/SELinux (29842): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29842):  
+I/SELinux (29842): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29842):  
+I/SELinux (29842): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29842):  
+I/SELinux (29842):  
+E/dalvikvm(29842): >>>>> Normal User
+E/dalvikvm(29842): >>>>> com.sec.android.app.mss [ userId:0 | appId:10016 ]
+I/ActivityManager(  737): Start proc com.sec.android.app.mss for broadcast com.sec.android.app.mss/.receiver.VerificationReceiver: pid=29842 uid=10016 gids={50016, 1028, 1015}
+D/TimaKeyStoreProvider(29842): in addTimaSignatureService
+D/TimaKeyStoreProvider(29842): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29842): Added TimaKesytore provider
+D/ActivityThread(29842): handleBindApplication:com.sec.android.app.mss
+I/VerificationService(29842): verificationId{3} request received.
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=29842, uid=10016 requires android.permission.INTERACT_ACROSS_USERS
+D/PackageManager(  737): [MSG] PACKAGE_VERIFIED: observer{1107513416}
+D/PackageManager(  737):           verificationId{3}
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PKG WL - false
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PKG BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PERM BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking SIG BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PKG WL - false
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PKG BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking PERM BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  Checking SIG BL - true
+D/ApplicationPolicy(  737): isApplicationInstallationEnabled :  enabled true
+V/ApplicationPolicy(  737): isApplicationStateBlocked userId 0 pkgname io.cordova.StatensVegvesen
+D/Finsky  (25216): [1] PackageVerificationReceiver.onReceive: Verification requested, id = 3
+D/PackageManager(  737): copyApk
+D/PackageManager(  737): skipping copyApk
+D/PackageManager(  737): [MSG] PROCESS_PENDING_INSTALL: observer{1107513416}
+D/PackageManager(  737): installPackageLI
+D/PackageManager(  737): skipping preCollectCert
+D/PackageManager(  737): use preparsed pkg
+W/PackageManager(  737): verifying app can be installed or not
+D/PackageManager(  737): Replace existing pacakge: 
+D/PackageManager(  737): Existing package: 
+D/PackageManager(  737): doRename: 
+D/PackageManager(  737): rename dexfile /data/dalvik-cache/data@app@vmdl-1246337309.tmp@classes.dex to /data/dalvik-cache/data@app@io.cordova.StatensVegvesen-8.apk@classes.dex
+D/PackageManager(  737): doRename apk path: 
+D/PackageManager(  737): replacePackageLI
+D/PackageManager(  737): replacePackageLI: 
+D/PackageManager(  737): !@killApplicatoin: 10109, uninstall pkg
+I/ActivityManager(  737): Force stopping io.cordova.StatensVegvesen appid=10109 user=-1: uninstall pkg
+I/ActivityManager(  737): Killing 27268:io.cordova.StatensVegvesen/u0a109 (adj 0): stop io.cordova.StatensVegvesen
+E/JavaBinder(  737): !!! FAILED BINDER TRANSACTION !!!
+E/JavaBinder(  737): !!! FAILED BINDER TRANSACTION !!!
+W/ActivityManager(  737): Force removing ActivityRecord{42b6d500 u0 io.cordova.StatensVegvesen/.CordovaApp t6}: app died, no saved state
+D/CustomFrequencyManagerService(  737): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  pkgName : ACTIVITY_RESUME_BOOSTER@3
+W/ActivityManager(  737): mDVFSHelper.acquire()
+D/dalvikvm(  737): GC_CONCURRENT freed 2798K, 27% free 18492K/25212K, paused 14ms+9ms, total 111ms
+D/dalvikvm(  737): WAIT_FOR_CONCURRENT_GC blocked 78ms
+I/SurfaceFlinger(  231): id=58 Removed DordovaApp (6/7)
+I/SurfaceFlinger(  231): id=58 Removed DordovaApp (-2/7)
+D/dalvikvm(  737): WAIT_FOR_CONCURRENT_GC blocked 83ms
+I/WindowState(  737): WIN DEATH: Window{42482838 u0 io.cordova.StatensVegvesen/io.cordova.StatensVegvesen.CordovaApp}
+I/PackageManager(  737): Package io.cordova.StatensVegvesen codePath changed from /data/app/io.cordova.StatensVegvesen-7.apk to /data/app/io.cordova.StatensVegvesen-8.apk; Retaining data and using new
+W/MyContainer(  737):  assignseinfovalue, <package name > = io.cordova.StatensVegvesen<seinfo> = default<category> = 1023<allow category> = 0,501-1023
+D/PackageManager(  737): not need to dexopt, but chown group to 50109
+D/PackageManager(  737): !@killApplicatoin: 10109, update pkg
+W/PackageManager(  737): Code path for pkg : io.cordova.StatensVegvesen changing from /data/app/io.cordova.StatensVegvesen-7.apk to /data/app/io.cordova.StatensVegvesen-8.apk
+W/PackageManager(  737): Resource path for pkg : io.cordova.StatensVegvesen changing from /data/app/io.cordova.StatensVegvesen-7.apk to /data/app/io.cordova.StatensVegvesen-8.apk
+D/PackageManager(  737): updateSettingsLI: 
+I/ActivityManager(  737): Killing 25414:com.sec.enterprise.knox.cloudmdm.smdms/u0a99 (adj 15): bgCount ##22
+D/PhoneStatusBar(  935): setSemiTransparentMode=true, mTransparentMode=false, mSemiTransparentMode=true, mMultiWindowMode=
+D/StatusBarManagerService(  737): semi p:5494,o:t
+W/Settings( 5494): Setting mobile_data has moved from android.provider.Settings.Secure to android.provider.Settings.Global, returning global URI.
+I/SurfaceFlinger(  231): id=59 createSurf (540x960),1 flag=404, Tettings
+D/STATUSBAR-StatusBarManagerService(  737): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+I/ActivityManager(  737): Force stopping io.cordova.StatensVegvesen appid=10109 user=-1: update pkg
+D/PackageManager(  737): New package installed in 
+W/Settings( 5494): updateHomeSettingHeaders homeApps.size() : 1
+D/Settings( 5494): 0th packageName : com.sec.android.app.launcher
+I/HarmonyEASService(  737): Updating for all 1
+W/Settings( 5494): there is no package related featurephonemode 
+W/Settings( 5494): updateHeaderList : isLockScreenEnabled = true
+W/ApplicationPackageManager(  737): getCSCPackageItemText()
+W/ApplicationPackageManager(  737): getCSCPackageItemText()
+D/PackageManager(  737): doPostInstall for uid{10109}
+D/PackageManager(  737): + starting rerstore round-trip 4
+D/PackageManager(  737): No resotre for backup - queue post-install for 4
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+W/Binder  ( 1096): Caught a RuntimeException from the binder stub implementation.
+W/Binder  ( 1096): java.lang.NullPointerException
+W/Binder  ( 1096): 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:280)
+W/Binder  ( 1096): 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+W/Binder  ( 1096): 	at android.os.Binder.execTransact(Binder.java:404)
+W/Binder  ( 1096): 	at dalvik.system.NativeStart.run(Native Method)
+W/InputMethodManagerService(  737): Got RemoteException sending setActive(false) notification to pid 27268 uid 10109
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+D/SamsungIME( 1096): Dismiss ExpandCandiate
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+W/Settings( 5494): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+W/Settings( 5494): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+I/Timeline( 5494): Timeline: Activity_idle id: android.os.BinderProxy@424731b8 time:5835608
+D/ConnectivityService(  737): getMobileDataEnabled returning true
+D/ConnectivityService(  737): getMobileDataEnabled returning true
+D/PackageManager(  737): [MSG] MCS_UNBIND
+I/PackageManager(  737): calling disconnectService()
+D/PackageManager(  737): Trying to unbind to DefaultContainerService
+D/PackageManager(  737): [MSG] POST_INSTALL: observer{1107513416}
+D/PackageManager(  737):           Handling post-install for 4
+I/ActivityManager(  737): Force stopping io.cordova.StatensVegvesen appid=10109 user=0: pkg removed
+I/ActivityManager(  737): Killing 25442:com.google.android.partnersetup/u0a11 (adj 15): bgCount ##22
+W/ApplicationPackageManager(  737): getCSCPackageItemText()
+D/Launcher.Model( 1156): A package is removed
+D/RCPManagerService(  737): PackageReceiver onReceive()
+I/InputReader(  737): Reconfiguring input devices.  changes=0x00000010
+E/SamsungIME( 1096): mOCRHelper is null
+I/HarmonyEASService(  737): onReceive : android.intent.action.PACKAGE_REMOVED for 0
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+I/KLMS-2.4.371: (27192): KLMSSystemProperties(): getBoolean(): ro.product_ship = true
+I/KLMS-2.4.371: (27192): MainReciver(): EventNotificationReciver- method called: AppActivityListner onReceive for Intent Action : android.intent.action.PACKAGE_REMOVED , timestamp: 1424782031175
+I/KLMS-2.4.371: (27192): MainReciver(): PACKAGE_REMOVED
+I/KLMS-2.4.371: (27192): MainReciver(): REPLACING: true | pkgName: io.cordova.StatensVegvesen
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+E/SamsungIME( 1096): mOCRHelper is null
+D/Launcher.Model( 1156): A package is added
+W/ApplicationPackageManager(  737): getCSCPackageItemText()
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/InputReader(  737): Reconfiguring input devices.  changes=0x00000010
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+W/ApplicationPackageManager( 1156): getCSCPackageItemText()
+D/dalvikvm( 2398): GC_EXPLICIT freed 388K, 53% free 7783K/16484K, paused 6ms+11ms, total 91ms
+I/SELinux (29859): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29859):  
+I/SELinux (29859): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29859):  
+I/SELinux (29859): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29859):  
+I/SELinux (29859):  
+E/dalvikvm(29859): >>>>> Normal User
+E/dalvikvm(29859): >>>>> com.sec.esdk.elm [ userId:0 | appId:10059 ]
+W/ApplicationPackageManager(  737): getCSCPackageItemText()
+I/ActivityManager(  737): Start proc com.sec.esdk.elm for broadcast com.sec.esdk.elm/.receiver.MainReceiver: pid=29859 uid=10059 gids={50059, 3003}
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+D/TimaKeyStoreProvider(29859): in addTimaSignatureService
+D/TimaKeyStoreProvider(29859): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29859): Added TimaKesytore provider
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_REMOVED
+V/EnterpriseBillingPolicy(  737): uID is 10109
+V/EnterpriseBillingPolicy(  737): Removed Packageuid is0
+V/EnterpriseBillingPolicyStorage(  737): getProfileForApplication - enter
+V/EnterpriseBillingPolicyStorage(  737): getProfileForApplication - exit null
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - personal application - profile null
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - might be a vpn vendor package 
+V/EnterpriseBillingPolicyStorage(  737): getBillingProfileForVpnEngine - start - io.cordova.StatensVegvesen
+V/EnterpriseBillingPolicyStorage(  737): getBillingProfileForVpnEngine - end - null
+D/BackupManagerService(  737): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen flg=0x4000010 (has extras) }
+I/InputReader(  737): Reconfiguring input devices.  changes=0x00000010
+D/RCPManagerService(  737): PackageReceiver onReceive()
+D/RCPManagerService(  737): App Installed with packageNAme = io.cordova.StatensVegvesen
+D/DynamicService( 1143): Ignoring package intent due to package being replaced.
+E/RCPManagerService(  737):  PackageReceiver onReceive() Failed to load meta-data, NullPointer: null
+D/RCPManagerService(  737):  PackageReceiver onReceive() bundle null
+D/ActivityThread(29859): handleBindApplication:com.sec.esdk.elm
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=29859, uid=10059 requires android.permission.INTERACT_ACROSS_USERS
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/BackupManagerService(  737): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.cordova.StatensVegvesen flg=0x4000010 (has extras) }
+V/BackupManagerService(  737): removePackageParticipantsLocked: uid=10109 #1
+D/elm:14341(29859): ELMAbstractReceiver.onReceive() : Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen flg=0x4000010 cmp=com.sec.esdk.elm/.receiver.MainReceiver (has extras) }
+D/elm:14341(29859): ELMEngine.ELMEngine( context ).
+D/elm:14341(29859): MDMBridge.setEnterpriseBridge()
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - start - android.intent.action.PACKAGE_ADDED
+V/EnterpriseBillingPolicy(  737): uID is 10109
+V/EnterpriseBillingPolicy(  737): Removed Packageuid is0
+V/EnterpriseBillingPolicyStorage(  737): getProfileForApplication - enter
+V/BackupManagerService(  737): addPackageParticipantsLocked: #1
+V/EnterpriseBillingPolicyStorage(  737): getProfileForApplication - exit null
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - personal application - profile null
+V/EnterpriseBillingPolicy(  737): packageModificationReceiver - onreceive - might be a vpn vendor package 
+V/EnterpriseBillingPolicyStorage(  737): getBillingProfileForVpnEngine - start - io.cordova.StatensVegvesen
+D/elm:14341(29859): ELMAbstractReceiver : Receive Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) } END.
+V/EnterpriseBillingPolicyStorage(  737): getBillingProfileForVpnEngine - end - null
+D/PersonaPolicyManagerService(  737): PersonaPolicyReceiver Receiver : android.intent.action.PACKAGE_ADDED
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+D/elm:14341(29859): ElmAgentService : onCreate()
+D/elm:14341(29859): ElmAgentService : onHandleIntent() Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen flg=0x4000010 cmp=com.sec.esdk.elm/.service.ElmAgentService (has extras) }
+I/ConfigFetchService( 1206): PackageReceiver: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen flg=0x4000010 cmp=com.google.android.gms/.config.ConfigFetchService$PackageReceiver (has extras) }
+D/EnterpriseDeviceManagerService(  737): onPackageUpdateFinished - packageName: io.cordova.StatensVegvesen, uid: 10109
+D/EnterpriseDeviceManagerService(  737): Package has changed for user 0
+D/EnterpriseDeviceManagerService(  737): Admin package name: com.google.android.gms
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/elm:14341(29859): ElmAgentService : onDestroy().
+I/ActivityManager(  737): Killing 25335:com.sec.android.gallery3d/u0a28 (adj 15): bgCount ##22
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+D/dalvikvm(  737): GC_EXPLICIT freed 2527K, 28% free 18285K/25212K, paused 6ms+14ms, total 165ms
+D/AndroidRuntime(29801): Shutting down VM
+D/dalvikvm(29801): GC_CONCURRENT freed 146K, 20% free 613K/764K, paused 0ms+1ms, total 3ms
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/PackageManager(  737): delete sourFile : 
+D/PackageManager(  737): delete native library directory: 
+D/PackageManager(  737): delete null
+D/PackageManager(  737): return install result to caller: 1107513416
+D/PackageManager(  737): returnCode: 1
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/ConfigService( 1363): onCreate
+I/ConfigService( 1363): onBind for Intent { act=com.google.android.gms.config.UPDATE pkg=com.google.android.gms } action com.google.android.gms.config.UPDATE
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/ConfigService( 1363): onBind returning update interface
+I/Timeline(  737): Timeline: Activity_windows_visible id: ActivityRecord{41f26a50 u0 com.android.settings/.Settings t3} time:5835937
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+D/CustomFrequencyManagerService(  737): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  tag : ACTIVITY_RESUME_BOOSTER@3
+W/ActivityManager(  737): mDVFSHelper.release()
+D/CustomFrequencyManagerService(  737): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/ConfigService( 1363): onBind for Intent { act=com.google.android.gms.config.START pkg=com.google.android.gms } action com.google.android.gms.config.START
+I/ConfigService( 1363): onBind returning config service
+I/ConfigFetchService( 1206): onStartCommand Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:io.cordova.StatensVegvesen cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+W/ApplicationPackageManager( 1121): getCSCPackageItemText()
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/ConfigFetchService( 1206): service connected
+I/ConfigClient( 1206): service connected
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+I/ConfigService( 1363): onDestroy
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/PackageBroadcastService( 1206): Received broadcast action=android.intent.action.PACKAGE_REMOVED and uri=io.cordova.StatensVegvesen
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "sms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/BatteryService(  737): level:100, scale:100, status:5, health:2, present:true, voltage: 4308, temperature: 298, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303000, invalid charger:0, online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false
+D/BatteryService(  737): Sending ACTION_BATTERY_CHANGED.
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "smsto"
+D/KeyguardUpdateMonitor(  935): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor(  935): handleBatteryUpdate
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/STATUSBAR-PhoneStatusBar(  935):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+I/PCWCLIENTTRACE_PushUtil( 7335): SPPPushClient is installed : true
+I/PCWCLIENTTRACE_PushUtil( 7335): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 7335): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 7335): [onReceive] - android.intent.action.PACKAGE_REMOVED
+W/AlarmManager(  737): Set alarm: type= 2 triggerAtTime= 12007968 , called by : com.google.android.gms, intent:Intent { act=com.google.android.gms.nlp.ALARM_WAKEUP_BURST_COLLECTION_TRIGGER }
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mms"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/BatteryMeterView(  935): ACTION_BATTERY_CHANGED : level:100 status:5 health:2
+I/PackageManager(  737):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  737):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  737):   Scheme: "mmsto"
+I/PackageManager(  737): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ConversationComposer} for user 0 :
+D/CustomFrequencyManagerService(  737): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  tag : ACTIVITY_RESUME_BOOSTER@6
+W/AlarmManager(  737): Set alarm: type= 0 triggerAtTime= 1424782046766 , called by : com.android.vending, intent:Intent { cmp=com.android.vending/com.google.android.finsky.services.ContentSyncService }
+V/AlarmManager(  737): AlarmManager_setLocked to type=2 curELAPSED = 5836251 as =5851 ans=249000000
+I/SELinux (29891): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29891):  
+I/SELinux (29891): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29891):  
+I/SELinux (29891): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29891):  
+I/SELinux (29891):  
+E/dalvikvm(29891): >>>>> Normal User
+E/dalvikvm(29891): >>>>> com.sec.spp.push:RemoteNotiProcess [ userId:0 | appId:10023 ]
+I/ActivityManager(  737): Start proc com.sec.spp.push:RemoteNotiProcess for broadcast com.sec.spp.push/.notisvc.registration.PackageRemovedReceiver: pid=29891 uid=10023 gids={50023, 3003, 1028, 1015}
+D/TimaKeyStoreProvider(29891): in addTimaSignatureService
+D/TimaKeyStoreProvider(29891): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29891): Added TimaKesytore provider
+D/DynamicService( 1143): Ignoring package intent due to package being replaced.
+D/ActivityThread(29891): handleBindApplication:com.sec.spp.push:RemoteNotiProcess
+E/SPPClientService(29891): ============PushLog. commonIsShipBuild. stop!
+E/SPPClientService(29891): [PushClientApplication] Push log off : This is Ship build version
+D/SPPClientService(29891): PushLog.txt file is not deleted.
+D/SPPClientService(29891): PushLog.txt file is not deleted.
+D/SPPClientService(29891): ============PushLog. stop!
+I/SA      ( 7389): [SUR] onReceive log=[SA = 2.1.0020 V = 19 HWD = 960X540 1.5 dpi = 240  SIZE = 2 LOCALE = en_GB CSC = THL MCC = 0 MNC 0 T = user DEVICE = fortunalte P = fortunaltedx I = KTU84P M = SM-G530F OKLEFT false DIS KTU84P.G530FXXU1AOA2 PSS = 4.978883785793901  ]
+I/SA      ( 7389): [SUR] onReceive Intent=[ action_PACKAGE_REMOVED package extra.REMOVED_FOR_ALL_USERS.:false extra.UID.:10109 extra.DATA_REMOVED.:false extra.REPLACING.:true extra.user_handle.:0 ]
+I/ActivityManager(  737): Killing 25361:com.google.android.apps.docs/u0a58 (adj 15): bgCount ##22
+I/SELinux (29904): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29904):  
+I/SELinux (29904): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29904):  
+I/SELinux (29904): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29904):  
+I/SELinux (29904):  
+E/dalvikvm(29904): >>>>> Normal User
+E/dalvikvm(29904): >>>>> com.sec.android.gallery3d [ userId:0 | appId:10028 ]
+I/ActivityManager(  737): Start proc com.sec.android.gallery3d for broadcast com.sec.android.gallery3d/.app.PackagesMonitor: pid=29904 uid=10028 gids={50028, 3003, 1028, 1015, 1023, 3002}
+D/TimaKeyStoreProvider(29904): in addTimaSignatureService
+D/TimaKeyStoreProvider(29904): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29904): Added TimaKesytore provider
+D/RegisteredServicesCache( 1143): empty dynamic service
+D/AidRoutingManager( 1143): commitRouting
+D/ActivityThread(29904): handleBindApplication:com.sec.android.gallery3d
+D/DisplayManager(29904): DisplayManager()
+D/RCPManagerService(  737): exchangeData() failure , invalid userId
+W/ContextImpl(29904): Implicit intents with startService are not safe: Intent { act=com.sec.knox.containeragent.service.containerinstallermanager.ContainerInstallerManagerService } android.content.ContextWrapper.bindService:524 com.sec.knox.containeragent.ContainerInstallerManager.<init>:64 com.sec.android.gallery3d.util.GalleryKnoxUtils.setKNOXInstallMode:77 
+W/ActivityManager(  737): Unable to start service Intent { act=com.sec.knox.containeragent.service.containerinstallermanager.ContainerInstallerManagerService } U=0: not found
+D/CustomFrequencyManagerService(  737): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 10028  pid : 29904  pkgName : com.sec.android.gallery3d@1
+I/ActivityManager(  737): Killing 25527:com.qualcomm.logkit/u0a71 (adj 15): bgCount ##22
+D/dalvikvm(29904): No JNI_OnLoad found in /system/lib/libXIVGallery_ESS.so 0x41e83dc8, skipping init
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+W/ContextImpl(29904): Failed to ensure directory: /storage/extSdCard/Android/data/com.sec.android.gallery3d/cache
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(29904): Failed to ensure directory: /storage/extSdCard/Android/data/com.sec.android.gallery3d/cache
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(29904): Failed to ensure directory: /storage/extSdCard/Android/data/com.sec.android.gallery3d/cache
+D/AndroidRuntime(29887): 
+D/AndroidRuntime(29887): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+I/ActivityManager(  737): Killing 28551:com.sec.android.diagmonagent/1000 (adj 15): bgCount ##22
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+D/AndroidRuntime(29887): CheckJNI is OFF
+D/AndroidRuntime(29887): setted country_code = THAILAND
+D/AndroidRuntime(29887): setted countryiso_code = TH
+D/AndroidRuntime(29887): setted sales_code = THL
+D/AndroidRuntime(29887): readGMSProperty: start
+D/AndroidRuntime(29887): readGMSProperty: already setted!!
+D/AndroidRuntime(29887): readGMSProperty: end
+D/AndroidRuntime(29887): addProductProperty: start
+I/SELinux (29920): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29920):  
+I/SELinux (29920): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29920):  
+I/SELinux (29920): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29920):  
+I/SELinux (29920):  
+E/dalvikvm(29920): >>>>> Normal User
+E/dalvikvm(29920): >>>>> com.sec.knox.bridge [ userId:0 | appId:1000 ]
+D/dalvikvm(29887): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(29887): Added shared lib libjavacore.so 0x0
+D/dalvikvm(29887): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(29887): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(29887): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/TimaKeyStoreProvider(29920): in addTimaSignatureService
+D/TimaKeyStoreProvider(29920): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29920): Added TimaKesytore provider
+I/ActivityManager(  737): Start proc com.sec.knox.bridge for broadcast com.sec.knox.bridge/.PersonaShortcutReceiver: pid=29920 uid=1000 gids={41000, 3003, 3002, 3001, 1028, 1015, 1023, 1007, 2001, 1001, 1021, 3004, 3005, 1000, 3009, 1010, 1024}
+D/ActivityThread(29920): handleBindApplication:com.sec.knox.bridge
+I/SELinux (29940): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29940):  
+I/SELinux (29940): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29940):  
+I/SELinux (29940): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29940):  
+I/SELinux (29940):  
+E/dalvikvm(29940): >>>>> Normal User
+E/dalvikvm(29940): >>>>> com.google.android.apps.docs [ userId:0 | appId:10058 ]
+I/ActivityManager(  737): Start proc com.google.android.apps.docs for broadcast com.google.android.apps.docs/.receivers.AppPackageAddRemoveReceiver: pid=29940 uid=10058 gids={50058, 3003, 1028, 1015}
+I/ActivityManager(  737): Killing 28566:com.sec.android.fotaclient/u0a5 (adj 15): bgCount ##22
+D/TimaKeyStoreProvider(29940): in addTimaSignatureService
+D/TimaKeyStoreProvider(29940): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29940): Added TimaKesytore provider
+D/ActivityThread(29940): handleBindApplication:com.google.android.apps.docs
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=29940, uid=10058 requires android.permission.INTERACT_ACROSS_USERS
+D/dalvikvm(29887): Note: class Landroid/app/ActivityManagerNative; has 184 unimplemented (abstract) methods
+D/AndroidRuntime(29887): Calling main entry com.android.commands.input.Input
+I/Input   (29887): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=5836692, downTime=5836692, deviceId=-1, displayId=0, source=0x101 }
+I/InputDispatcher(  737): Delivering key to (5494): action: 0x0 (0)
+I/Input   (29887): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=5836692, downTime=5836692, deviceId=-1, displayId=0, source=0x101 }
+I/InputDispatcher(  737): Delivering key to (5494): action: 0x1 (0)
+D/AndroidRuntime(29887): Shutting down VM
+D/dalvikvm(29887): GC_CONCURRENT freed 149K, 20% free 620K/772K, paused 1ms+0ms, total 3ms
+D/STATUSBAR-NetworkController(  935): refreshSignalCluster: data=-1 bt=false
+I/SELinux (29960): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29960):  
+I/SELinux (29960): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29960):  
+I/SELinux (29960): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29960):  
+I/SELinux (29960):  
+E/dalvikvm(29960): >>>>> Normal User
+E/dalvikvm(29960): >>>>> com.android.keychain [ userId:0 | appId:1000 ]
+I/ActivityManager(  737): Start proc com.android.keychain for broadcast com.android.keychain/.KeyChainBroadcastReceiver: pid=29960 uid=1000 gids={41000, 3003, 3002, 3001, 1028, 1015, 1023, 1007, 2001, 1001, 1021, 3004, 3005, 1000, 3009, 1010, 1024}
+I/ActivityManager(  737): Killing 25463:com.policydm/1000 (adj 15): bgCount ##22
+D/TimaKeyStoreProvider(29960): in addTimaSignatureService
+D/TimaKeyStoreProvider(29960): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29960): Added TimaKesytore provider
+W/GAV2    (29940): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+D/ActivityThread(29960): handleBindApplication:com.android.keychain
+W/ContextImpl(29960): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1623 android.content.ContextWrapper.startService:501 android.content.ContextWrapper.startService:501 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2552 
+I/SELinux (29980): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (29980):  
+I/SELinux (29980): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (29980):  
+I/SELinux (29980): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (29980):  
+I/SELinux (29980):  
+E/dalvikvm(29980): >>>>> Normal User
+E/dalvikvm(29980): >>>>> com.sec.enterprise.knox.cloudmdm.smdms [ userId:0 | appId:10099 ]
+I/ActivityManager(  737): Start proc com.sec.enterprise.knox.cloudmdm.smdms for broadcast com.sec.enterprise.knox.cloudmdm.smdms/.knoxquickstart.QuickStartReceiver: pid=29980 uid=10099 gids={50099, 3003, 3002, 1028, 1015, 3001}
+D/TimaKeyStoreProvider(29980): in addTimaSignatureService
+D/TimaKeyStoreProvider(29980): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(29980): Added TimaKesytore provider
+D/ActivityThread(29980): handleBindApplication:com.sec.enterprise.knox.cloudmdm.smdms
+E/SMD     (  243): DCD OFF
+D/UMC:Core(29980): onCreate(): 
+D/USER_AGENT(29980): UMC/1.1.39 (SM-G530F) SAFE-5.1 KNOX-2.1
+D/[SAMSUNG SMARCART NATIVE](29980): initialize...
+D/[SAMSUNG SMARCART NATIVE](29980): DEBUG: connect to PKCS#11 module: libtlc_tz_ccm.so 
+I/CSTORAGE(29980): ================================================
+I/CSTORAGE(29980):  CSTORAGE_SKM_LIB v1.0.13
+I/CSTORAGE(29980): ================================================
+I/CSTORAGE(29980): ================================================
+I/CSTORAGE(29980):  CSTORAGE_SKM_LIB v1.0.13
+I/CSTORAGE(29980): ================================================
+I/TZ_CCM_C_GetFunctionList: (29980): TZ_CCM_C_GetFunctionList was called
+D/[SAMSUNG SMARCART NATIVE](29980): FINISHED: initialize rv:0
+D/AndroidRuntime(29976): 
+D/AndroidRuntime(29976): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime(29976): CheckJNI is OFF
+D/AndroidRuntime(29976): setted country_code = THAILAND
+D/AndroidRuntime(29976): setted countryiso_code = TH
+D/AndroidRuntime(29976): setted sales_code = THL
+D/AndroidRuntime(29976): readGMSProperty: start
+D/AndroidRuntime(29976): readGMSProperty: already setted!!
+D/AndroidRuntime(29976): readGMSProperty: end
+D/AndroidRuntime(29976): addProductProperty: start
+D/dalvikvm(29976): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(29976): Added shared lib libjavacore.so 0x0
+D/dalvikvm(29976): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(29976): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(29976): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/UMC:SecurityUtils(29980): Loaded server certificates: 0
+D/UMC:SecurityUtils(29980): Loaded server certificates: 0
+D/UMC:SecurityUtils(29980): timaVersion on the device: 3.0
+D/UMC:CloudMDMSecurity(29980): New Flow
+I/        (  737): CCM JNI: In ccm_register_for_default_cert
+I/        (  737): CCM JNI: In ccm_create_slot
+I/TZ_CCM_C_Initialize: (  737): DEBUG_CONTAINER_PROBLEM Enter TZ_CCM_C_Initialize_TLC!
+I/TZ_CCM_C_Initialize: (  737): pInitArgs 0x6c8e5924 has not called C_Init before.
+I/TZ_CCM_C_Initialize: (  737): &ctx = 0x65334c98
+I/TLC_TZ_CCM: (  737): creating new ccm context...
+I/TLC_TZ_CCM: (  737): initializing ccm context...
+I/TLC_TZ_CCM: (  737): root = /firmware/image, root_strlen = 15
+I/TLC_TZ_CCM: (  737): process = tz_ccm, process_strlen = 6
+I/TZ: client_server_communication(  737): input max_sendmsg_size = 19420
+I/TZ: client_server_communication(  737): input max_recvmsg_size = 19420
+I/TZ: client_server_communication(  737): root = /firmware/image, root_len = 15
+I/TZ: client_server_communication(  737): process = tz_ccm, process_strlen = 6
+I/TZ: client_server_communication(  737): aligned max_sendmsg_size = 19456
+I/TZ: client_server_communication(  737): aligned max_recvmsg_size = 19456
+I/TZ: client_server_communication(  737): Client_Server_Open was called
+I/TZ: client_server_communication(  737): IClientServer::IClientServer()
+I/TZ: client_server_communication(  737): BpClientServer::BpClientServer()
+I/TZ: client_server_communication(  737): IClientServer::~IClientServer()
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(0) 16
+I/TZ_CCM_SERVER(  845): OPENSWCONN
+I/TZ_CCM_SERVER(  845): creating new ccm context...
+I/TZ_CCM_SERVER(  845): initializing ccm context...
+I/TZ_CCM_SERVER(  845): root = /firmware/image, root_strlen = 15
+I/TZ_CCM_SERVER(  845): process = tz_ccm, process_strlen = 6
+I/TZ: qc_tlc_communication(  845): root = /firmware/image, root_len = 15
+I/TZ: qc_tlc_communication(  845): process = tz_ccm, process_strlen = 6
+I/TZ: qc_tlc_communication(  845): aligned max_sendmsg_size = 19456 = 0x4c00
+I/TZ: qc_tlc_communication(  845): aligned max_recvmsg_size = 19456 = 0x4c00
+I/TZ: qc_tlc_communication(  845): max_message_size = 38912 = 0x9800
+D/QSEECOMAPI: (  845): QSEECom_get_handle sb_length = 0x9800
+D/QSEECOMAPI: (  845): App is not loaded in QSEE
+D/TimaService(  737): TIMA3: in ccmRegisterForDefaultCertificate
+D/TimaService(  737): TIMA: in getTimaVersion
+D/QSEECOMAPI: (  845): Loaded image: APP id = 5
+I/TZ: qc_tlc_communication(  845): TIMA: path = /firmware/image, fname = tz_ccm, tzapp is loaded
+I/TZ: client_server_communication(  737): OpenSWConn(CCM) is successful
+I/TZ: client_server_communication(  737): Client_Server_Open succeeded, serverName = CCM
+I/TZ_CCM_C_Initialize: (  737): ctx = 0x6307f5b8, comm = 0x62d79098, sendmsg = 0x665c2008, recvmsg = 0x665c6c08
+I/TZ_init: (  737): TZ_init: sending initialization request...
+I/TZ: client_server_communication(  737): Cmd id = 2, len = 19456
+I/TZ: client_server_communication(  737): Calling Communicate()
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(2) 16
+I/TZ_CCM_SERVER(  845): COMM
+I/TZ_init: (  737): TZ_init: successful initialization
+I/TLC_TZ_COMMON: key_db_init: (  737): Exercising TZ_DB_INIT in TLC
+I/TZ: client_server_communication(  737): Cmd id = 17, len = 19456
+I/TZ: client_server_communication(  737): Calling Communicate()
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(2) 16
+I/TZ_CCM_SERVER(  845): COMM
+I/TZ_COMMON: tlc_key_db_util: (  737): DB Operation suceeded
+I/TLC_TZ_CCM: register for default cert: (  737): Exercising TZ_CCM_register_default_TLC
+I/TZ: client_server_communication(  737): Cmd id = 25, len = 19456
+I/TZ: client_server_communication(  737): Calling Communicate()
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(2) 16
+I/TZ_CCM_SERVER(  845): COMM
+I/TLC_TZ_CCM: register for default cert: (  737): TZ_CCM_register_default_TLC_END: DB file size to update is 0
+I/TLC_TZ_CCM: register for default cert: (  737): TZ_CCM_register_default_TLC: Slot ID 0 allocated for cid: 0
+I/TZ_CCM_C_Finalize: (  737): DEBUG_CONTAINER_PROBLEM Exercising TZ_CCM_C_Finalize_TLC
+I/TZ: client_server_communication(  737): Cmd id = 41, len = 19456
+I/TZ: client_server_communication(  737): Calling Communicate()
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(2) 16
+I/TZ_CCM_SERVER(  845): COMM
+I/TZ: client_server_communication(  737): Client_Server_Close was called
+I/TZ_CCM_SERVER(  845): BnCCM::onTransact(1) 16
+I/TZ_CCM_SERVER(  845): CLOSESWCONN
+D/QSEECOMAPI: (  845): QSEECom_dealloc_memory 
+D/QSEECOMAPI: (  845): QSEECom_shutdown_app, app_id = 5
+I/TZ: client_server_communication(  737): Client_Server_Close succeeded
+D/UMC:CloudMDMSecurity(29980): ccmRegisterForDefaultCertificate: 0
+D/UMC:CloudMDMSecurity(29980): TIMA service call for password change success!!
+D/UMC:AdminManager(29980): init - start
+D/UMC:AdminManager(29980): loadAdmins
+D/UMC:AdminManager(29980): startPolicyHandlers
+I/UMC:TestPolicyHandler(29980): Setup is called in testpolicyhandler
+D/UMC:AdminManager(29980): init - end
+V/UMC:AlarmHandler(29980): Enter loadList
+D/dalvikvm(29976): Note: class Landroid/app/ActivityManagerNative; has 184 unimplemented (abstract) methods
+D/GSLBManager(29980): migrateStoredUrlFromOldPref
+D/GSLBManager(29980): migrateStoredUrlFromOldPref : Migration Not Needed
+I/dalvikvm(29980): Could not find method com.sec.enterprise.knox.EnterpriseKnoxManager.createInstance, referenced from method com.sec.enterprise.knox.cloudmdm.smdms.policyinterface.UMCAdmin.setCCMProfile
+W/dalvikvm(29980): VFY: unable to resolve static method 8884: Lcom/sec/enterprise/knox/EnterpriseKnoxManager;.createInstance (Landroid/app/enterprise/ContextInfo;)Lcom/sec/enterprise/knox/EnterpriseKnoxManager;
+D/dalvikvm(29980): VFY: replacing opcode 0x71 at 0x001d
+D/UMC:UMCAdmin(29980): deactivateUMCAdminIfNotRequired : -1
+E/UMC:Utils(29980): Admin not found in package com.samsung.knoxpb.mdm
+D/UMC:UMCAdmin(29980): deactivateUMCAdmin : -1
+D/UMC:UMCAdmin(29980): isContainer : 0
+W/LicenseLogService(  737): log() failed
+D/dalvikvm(29980): Note: class Landroid/app/enterprise/IApplicationPolicy$Stub; has 153 unimplemented (abstract) methods
+E/UMC:UMCAdmin(29980): No active admin owned by uid 10099
+D/UMC:UMCAdmin(29980): isContainer : 0
+D/UMC:UMCAdmin(29980): deactivateUMCAdmin - UMC App Admin deactivated
+D/QuickStartReceiver(29980): Intent Action : android.intent.action.PACKAGE_REMOVED
+D/QuickStartReceiver(29980): Intent Replacing : true
+I/ActivityManager(  737): Killing 28591:com.android.chrome/u0a53 (adj 15): bgCount ##22
+I/HomeSyncInstallReceiver( 1143): This pkg do not need BT addr. Do nothing
+I/ConfigFetchService( 1206): PackageReceiver: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.cordova.StatensVegvesen flg=0x4000010 cmp=com.google.android.gms/.config.ConfigFetchService$PackageReceiver (has extras) }
+I/ConfigService( 1363): onCreate
+I/ConfigService( 1363): onBind for Intent { act=com.google.android.gms.config.UPDATE pkg=com.google.android.gms } action com.google.android.gms.config.UPDATE
+I/ConfigFetchService( 1206): onStartCommand Intent { act=android.intent.action.PACKAGE_ADDED dat=package:io.cordova.StatensVegvesen cmp=com.google.android.gms/.config.ConfigFetchService (has extras) }
+I/ConfigService( 1363): onBind returning update interface
+I/ConfigService( 1363): onBind for Intent { act=com.google.android.gms.config.START pkg=com.google.android.gms } action com.google.android.gms.config.START
+I/ConfigService( 1363): onBind returning config service
+I/ConfigFetchService( 1206): launchTask
+D/AndroidRuntime(29976): Calling main entry com.android.commands.am.Am
+I/ConfigFetchService( 1206): service connected
+I/ConfigClient( 1206): service connected
+D/PackageBroadcastService( 1206): Received broadcast action=android.intent.action.PACKAGE_ADDED and uri=io.cordova.StatensVegvesen
+I/SELinux (30016): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (30016):  
+I/SELinux (30016): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (30016):  
+I/SELinux (30016): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (30016):  
+I/SELinux (30016):  
+E/dalvikvm(30016): >>>>> Normal User
+E/dalvikvm(30016): >>>>> com.google.android.partnersetup [ userId:0 | appId:10011 ]
+I/ActivityManager(  737): Start proc com.google.android.partnersetup for broadcast com.google.android.partnersetup/.RlzPingBroadcastReceiver: pid=30016 uid=10011 gids={50011, 3003}
+D/TimaKeyStoreProvider(30016): in addTimaSignatureService
+D/TimaKeyStoreProvider(30016): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(30016): Added TimaKesytore provider
+D/ActivityThread(30016): handleBindApplication:com.google.android.partnersetup
+I/PeopleContactsSync( 1206): CP2 sync disabled
+V/ApplicationPolicy(  737): isApplicationStateBlocked userId 0 pkgname io.cordova.StatensVegvesen
+I/ActivityManager(  737): START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=io.cordova.StatensVegvesen/.CordovaApp} from pid 29976
+D/CustomFrequencyManagerService(  737): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  pkgName : ACTIVITY_RESUME_BOOSTER@3
+W/ActivityManager(  737): mDVFSHelper.acquire()
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=30016, uid=10011 requires android.permission.INTERACT_ACROSS_USERS
+I/SurfaceFlinger(  231): id=60 createSurf (1x1),1 flag=404, TtatensVegv
+I/SELinux (30031): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (30031):  
+I/SELinux (30031): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (30031):  
+I/SELinux (30031): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (30031):  
+I/SELinux (30031):  
+E/dalvikvm(30031): >>>>> Normal User
+E/dalvikvm(30031): >>>>> io.cordova.StatensVegvesen [ userId:0 | appId:10109 ]
+D/dalvikvm(30031): Late-enabling CheckJNI
+I/ActivityManager(  737): Start proc io.cordova.StatensVegvesen for activity io.cordova.StatensVegvesen/.CordovaApp: pid=30031 uid=10109 gids={50109, 3003, 1028, 1015}
+D/TimaKeyStoreProvider(30031): in addTimaSignatureService
+D/TimaKeyStoreProvider(30031): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(30031): Added TimaKesytore provider
+D/ActivityThread(30031): handleBindApplication:io.cordova.StatensVegvesen
+W/ActivityThread(30031): Application io.cordova.StatensVegvesen can be debugged on port 8100...
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=30031, uid=10109 requires android.permission.INTERACT_ACROSS_USERS
+W/ApplicationPackageManager(30031): getCSCPackageItemText()
+D/DisplayManager(30031): DisplayManager()
+D/STATUSBAR-StatusBarManagerService(  737): manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+I/PCWCLIENTTRACE_PushUtil( 7335): SPPPushClient is installed : true
+I/PCWCLIENTTRACE_PushUtil( 7335): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 7335): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 7335): [onReceive] - android.intent.action.PACKAGE_ADDED
+I/CordovaLog(30031): Changing log level to DEBUG(3)
+D/CordovaActivity(30031): CordovaActivity.init()
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=30031, uid=10109 requires android.permission.INTERACT_ACROSS_USERS
+V/WebViewChromiumFactoryProvider(30031): Binding Chromium to main looper Looper (main, tid 1) {41e84bd0}
+I/LibraryLoader(30031): Expected native library version number "",actual native library version number ""
+I/chromium(30031): [INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+W/AlarmManager(  737): Set alarm: type= 0 triggerAtTime= 1424782048145 , called by : com.android.vending, intent:Intent { cmp=com.android.vending/com.google.android.finsky.services.ContentSyncService }
+V/AlarmManager(  737): AlarmManager_setLocked to type=2 curELAPSED = 5837632 as =5855 ans=316000000
+V/AlarmManager(  737): AlarmManager_setLocked to type=2 curELAPSED = 5837636 as =5852 ans=627000000
+I/BrowserStartupController(30031): Initializing chromium process, renderers=0
+I/SELinux (30049): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (30049):  
+I/SELinux (30049): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (30049):  
+I/SELinux (30049): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (30049):  
+I/SELinux (30049):  
+E/dalvikvm(30049): >>>>> Normal User
+E/dalvikvm(30049): >>>>> com.policydm [ userId:0 | appId:1000 ]
+I/ActivityManager(  737): Start proc com.policydm for broadcast com.policydm/.XSPPReceiver: pid=30049 uid=1000 gids={41000, 3003, 3002, 3001, 1028, 1015, 1023, 1007, 2001, 1001, 1021, 3004, 3005, 1000, 3009, 1010, 1024}
+W/ApplicationPackageManager(30031): getCSCPackageItemText()
+D/TimaKeyStoreProvider(30049): in addTimaSignatureService
+I/Adreno-EGL(30031): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
+I/Adreno-EGL(30031): OpenGL ES Shader Compiler Version: E031.24.02.07
+I/Adreno-EGL(30031): Build Date: 08/06/14 Wed
+I/Adreno-EGL(30031): Local Branch: rb1
+I/Adreno-EGL(30031): Remote Branch: 
+I/Adreno-EGL(30031): Local Patches: 
+I/Adreno-EGL(30031): Reconstruct Branch: 
+D/TimaKeyStoreProvider(30049): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(30049): Added TimaKesytore provider
+D/dalvikvm(  232): GC_EXPLICIT freed 45K, 60% free 6662K/16484K, paused 2ms+3ms, total 22ms
+D/ActivityThread(30049): handleBindApplication:com.policydm
+D/dalvikvm(  232): GC_EXPLICIT freed <1K, 60% free 6662K/16484K, paused 1ms+2ms, total 17ms
+D/dalvikvm(  232): GC_EXPLICIT freed <1K, 60% free 6662K/16484K, paused 1ms+2ms, total 17ms
+W/chromium(30031): [WARNING:proxy_service.cc(890)] PAC support disabled because there is no system implementation
+D/CordovaWebView(30031): CordovaWebView is running on device made by: samsung
+D/CordovaActivity(30031): CordovaActivity.createViews()
+I/SA      ( 7389): [PMR] Received action : android.intent.action.PACKAGE_ADDED
+D/CordovaWebView(30031): >>> loadUrl(file:///android_asset/www/index.html)
+D/PluginManager(30031): init()
+I/SA      ( 7389): [SUR] onReceive log=[SA = 2.1.0020 V = 19 HWD = 960X540 1.5 dpi = 240  SIZE = 2 LOCALE = en_GB CSC = THL MCC = 0 MNC 0 T = user DEVICE = fortunalte P = fortunaltedx I = KTU84P M = SM-G530F OKLEFT false DIS KTU84P.G530FXXU1AOA2 PSS = 4.978883785793901  ]
+I/SA      ( 7389): [SUR] onReceive Intent=[ action.PACKAGE_ADDED. package extra.UID.:10109 extra.REPLACING.:true extra.user_handle.:0 ]
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+I/ActivityManager(  737): Killing 7621:com.google.android.apps.magazines/u0a72 (adj 15): bgCount ##22
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+W/ContextImpl(30031): Failed to ensure directory: /storage/extSdCard/Android/data/io.cordova.StatensVegvesen/files
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30031): Failed to ensure directory: /storage/extSdCard/Android/data/io.cordova.StatensVegvesen/cache
+D/CordovaWebView(30031): >>> loadUrlNow()
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+D/CordovaActivity(30031): Resuming the App
+D/PhoneStatusBar(  935): setSemiTransparentMode=false, mTransparentMode=false, mSemiTransparentMode=false, mMultiWindowMode=
+D/StatusBarManagerService(  737): semi p:30031,o:f
+I/SurfaceFlinger(  231): id=61 createSurf (1x1),1 flag=4, DordovaApp
+I/IcingCorporaProvider( 2398): Updating corpora: APPS=io.cordova.StatensVegvesen, CONTACTS=MAYBE
+D/OpenGLRenderer(30031): Enabling debug mode 0
+D/SoftKeyboardDetect(30031): Ignore this event
+I/SurfaceFlinger(  231): id=62 createSurf (540x960),1 flag=404, DordovaApp
+D/SamsungIME( 1096): Dismiss ExpandCandiate
+W/ApplicationPackageManager( 2398): getCSCPackageItemText()
+I/IcingCorporaProvider( 2398): UpdateCorporaTask done [took 76 ms] updated apps [took 76 ms] 
+D/SoftKeyboardDetect(30031): Ignore this event
+I/Timeline(30031): Timeline: Activity_idle id: android.os.BinderProxy@41e86068 time:5837884
+I/ActivityManager(  737): Displayed io.cordova.StatensVegvesen/.CordovaApp: +325ms
+D/AndroidRuntime(29976): Shutting down VM
+D/dalvikvm(29976): GC_CONCURRENT freed 148K, 20% free 651K/804K, paused 1ms+0ms, total 3ms
+D/SSRMv2:SIOP(  737): SIOP:: AP = 350, Delta = 10
+D/PackageBroadcastService( 1206): Received broadcast action=android.intent.action.PACKAGE_REPLACED and uri=io.cordova.StatensVegvesen
+D/CordovaWebViewClient(30031): onPageStarted(file:///android_asset/www/index.html)
+D/CordovaActivity(30031): onMessage(onPageStarted,file:///android_asset/www/index.html)
+I/PeopleContactsSync( 1206): CP2 sync disabled
+I/Timeline(  737): Timeline: Activity_windows_visible id: ActivityRecord{429ab438 u0 io.cordova.StatensVegvesen/.CordovaApp t7} time:5837932
+I/SurfaceFlinger(  231): id=59 Removed Tettings (5/10)
+I/SurfaceFlinger(  231): id=59 Removed Tettings (-2/10)
+I/PCWCLIENTTRACE_PushUtil( 7335): SPPPushClient is installed : true
+I/PCWCLIENTTRACE_PushUtil( 7335): sales region : global
+I/PCWCLIENTTRACE_PushUtil( 7335): getPushTypeList : [SPP, GCM]
+I/PCWCLIENTTRACE_SYSTEMReceiver( 7335): [onReceive] - android.intent.action.PACKAGE_REPLACED
+D/PCWCLIENTTRACE_SYSTEMReceiver( 7335): ACTION_PACKAGE_REPLACED_START
+D/CustomFrequencyManagerService(  737): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  tag : ACTIVITY_RESUME_BOOSTER@3
+W/ActivityManager(  737): mDVFSHelper.release()
+D/CustomFrequencyManagerService(  737): acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  pkgName : ACTIVITY_RESUME_BOOSTER@6
+I/SA      ( 7389): [PMR] Received action : android.intent.action.PACKAGE_REPLACED
+I/SA      ( 7389): [SUR] onReceive log=[SA = 2.1.0020 V = 19 HWD = 960X540 1.5 dpi = 240  SIZE = 2 LOCALE = en_GB CSC = THL MCC = 0 MNC 0 T = user DEVICE = fortunalte P = fortunaltedx I = KTU84P M = SM-G530F OKLEFT false DIS KTU84P.G530FXXU1AOA2 PSS = 4.978883785793901  ]
+I/SA      ( 7389): [SUR] onReceive Intent=[ action_PACKAGE_REPLACED package extra.UID.:10109 extra.REPLACING.:true extra.user_handle.:0 ]
+I/SELinux (30104): Function: selinux_android_load_priority [0], There is no sepolicy file.
+I/SELinux (30104):  
+I/SELinux (30104): Function: selinux_android_load_priority [1], There is no sepolicy version file.
+I/SELinux (30104):  
+I/SELinux (30104): Function: selinux_android_load_priority , priority is 3. priority version is VE=SEPF_SM-G530F_4.4.4_0033
+I/SELinux (30104):  
+I/SELinux (30104):  
+E/dalvikvm(30104): >>>>> Normal User
+E/dalvikvm(30104): >>>>> com.google.android.apps.magazines [ userId:0 | appId:10072 ]
+I/ActivityManager(  737): Start proc com.google.android.apps.magazines for broadcast com.google.android.apps.magazines/com.google.apps.dots.android.app.receiver.FirstInstallNotificationReceiver: pid=30104 uid=10072 gids={50072, 3003, 1028, 1015}
+D/TimaKeyStoreProvider(30104): in addTimaSignatureService
+W/AlarmManager(  737): Set alarm: type= 0 triggerAtTime= 1425381981309 , called by : com.policydm, intent:Intent { act=com.policydm.intent.action.POLLING_TIME }
+D/TimaKeyStoreProvider(30104): Cannot add TimaSignature Service, License check Failed
+D/ActivityThread(30104): Added TimaKesytore provider
+D/ActivityThread(30104): handleBindApplication:com.google.android.apps.magazines
+W/GAV2    (30104): Thread[main,5,main]: Need to call initialize() and be in fallback mode to start dispatch.
+I/SurfaceFlinger(  231): id=60 Removed TtatensVegv (8/9)
+I/SurfaceFlinger(  231): id=60 Removed TtatensVegv (-2/9)
+W/AlarmManager(  737): Set alarm: type= 0 triggerAtTime= 1425237861937 , called by : com.policydm, intent:Intent { act=com.policydm.intent.action.POLLING_REPORTTIME }
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30104): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30104): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30104): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/cache
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30104): Failed to ensure directory: /storage/extSdCard/Android/data/com.google.android.apps.magazines/files
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+D/JsMessageQueue(30031): Set native->JS mode to OnlineEventsBridgeMode
+D/DisplayManager(30104): DisplayManager()
+V/WebViewChromiumFactoryProvider(30104): Binding Chromium to main looper Looper (main, tid 1) {41e7b490}
+I/LibraryLoader(30104): Expected native library version number "",actual native library version number ""
+I/chromium(30104): [INFO:library_loader_hooks.cc(116)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserStartupController(30104): Initializing chromium process, renderers=0
+W/ApplicationPackageManager(30104): getCSCPackageItemText()
+I/Adreno-EGL(30104): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
+I/Adreno-EGL(30104): OpenGL ES Shader Compiler Version: E031.24.02.07
+I/Adreno-EGL(30104): Build Date: 08/06/14 Wed
+I/Adreno-EGL(30104): Local Branch: rb1
+I/Adreno-EGL(30104): Remote Branch: 
+I/Adreno-EGL(30104): Local Patches: 
+I/Adreno-EGL(30104): Reconstruct Branch: 
+D/CustomFrequencyManagerService(  737): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 1000  pid : 737  tag : ACTIVITY_RESUME_BOOSTER@6
+I/NSApplication(30104): Starting up...
+W/ActivityManager(  737): Permission Denial: getCurrentUser() from pid=30104, uid=10072 requires android.permission.INTERACT_ACROSS_USERS
+I/ActivityManager(  737): Killing 28604:com.android.email/u0a93 (adj 15): bgCount ##22
+D/CordovaLog(30031): file:///android_asset/www/scripts/framework/angular.js: Line 11607 : ReferenceError: LocalFileSystem is not defined
+D/CordovaLog(30031):     at readFile (file:///android_asset/www/services/fileService.js:19:38)
+D/CordovaLog(30031):     at Object.readSettingsFile (file:///android_asset/www/services/fileService.js:14:20)
+D/CordovaLog(30031):     at new <anonymous> (file:///android_asset/www/controllers/mainController.js:8:32)
+D/CordovaLog(30031):     at Object.invoke (file:///android_asset/www/scripts/framework/angular.js:4185:17)
+D/CordovaLog(30031):     at extend.instance (file:///android_asset/www/scripts/framework/angular.js:8454:21)
+D/CordovaLog(30031):     at file:///android_asset/www/scripts/framework/angular.js:7700:13
+D/CordovaLog(30031):     at forEach (file:///android_asset/www/scripts/framework/angular.js:331:20)
+D/CordovaLog(30031):     at nodeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7699:11)
+D/CordovaLog(30031):     at compositeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7078:13)
+D/CordovaLog(30031):     at compositeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7081:13)
+I/chromium(30031): [INFO:CONSOLE(11607)] "ReferenceError: LocalFileSystem is not defined
+I/chromium(30031):     at readFile (file:///android_asset/www/services/fileService.js:19:38)
+I/chromium(30031):     at Object.readSettingsFile (file:///android_asset/www/services/fileService.js:14:20)
+I/chromium(30031):     at new <anonymous> (file:///android_asset/www/controllers/mainController.js:8:32)
+I/chromium(30031):     at Object.invoke (file:///android_asset/www/scripts/framework/angular.js:4185:17)
+I/chromium(30031):     at extend.instance (file:///android_asset/www/scripts/framework/angular.js:8454:21)
+I/chromium(30031):     at file:///android_asset/www/scripts/framework/angular.js:7700:13
+I/chromium(30031):     at forEach (file:///android_asset/www/scripts/framework/angular.js:331:20)
+I/chromium(30031):     at nodeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7699:11)
+I/chromium(30031):     at compositeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7078:13)
+I/chromium(30031):     at compositeLinkFn (file:///android_asset/www/scripts/framework/angular.js:7081:13)", source: file:///android_asset/www/scripts/framework/angular.js (11607)
+D/CordovaActivity(30031): onMessage(spinner,stop)
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30031): Failed to ensure directory: /storage/extSdCard/Android/data/io.cordova.StatensVegvesen/files
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30031): Failed to ensure directory: /storage/extSdCard/Android/data/io.cordova.StatensVegvesen/files
+E/cutils  (  218): Failed to mkdirat(/storage/extSdCard/Android): Read-only file system
+W/ContextImpl(30031): Failed to ensure directory: /storage/extSdCard/Android/data/io.cordova.StatensVegvesen/cache
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+W/Vold    (  218): Returning OperationFailed - no handler for errno 30
+D/CordovaWebViewClient(30031): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaActivity(30031): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/STATUSBAR-NetworkController(  935): refreshSignalCluster: data=-1 bt=false
+D/CustomFrequencyManagerService(  737): releaseDVFSLockLocked : Getting Lock type frm List : DVFS_MIN_LIMIT  frequency : 1190400  uid : 10028  pid : 29904  tag : com.sec.android.gallery3d@1
+D/SoftKeyboardDetect(30031): Ignore this event
+D/PowerManagerService(  737): [api] acquire WakeLock flags=0x2000000a tag=WindowManager uid=1000 pid=737
+D/STATUSBAR-NetworkController(  935): onSignalStrengthsChanged signalStrength=SignalStrength: 14 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 gsm|lte 0x4 level=4
+W/AlarmManager(  737): Set alarm: type= 2 triggerAtTime= 5855316 , called by : com.google.android.gms, intent:Intent { act=com.google.android.gms.nlp.ALARM_WAKEUP_LOCATOR }
+E/SMD     (  243): DCD OFF
+I/SurfaceFlinger(  231): id=61 Removed DordovaApp (6/8)
+I/SurfaceFlinger(  231): id=61 Removed DordovaApp (-2/8)
+D/SamsungIME( 1096): Dismiss ExpandCandiate
+E/ViewRootImpl(30031): sendUserActionEvent() mView == null
+W/GAV2    (29940): Thread[main,5,main]: dispatch call queued.  Need to call GAServiceManager.getInstance().initialize().
+I/ActivityManager(  737): Killing 28622:com.sec.android.provider.badge/u0a47 (adj 15): bgCount ##22
+I/GAV2    (29940): Thread[GAThread,5,main]: No campaign data found.
+D/STATUSBAR-NetworkController(  935): refreshSignalCluster: data=-1 bt=false
+D/STATUSBAR-NetworkController(  935): onSignalStrengthsChanged signalStrength=SignalStrength: 14 -1 -1 -1 -1 -1 -1 99 2147483647 2147483647 2147483647 -1 2147483647 gsm|lte 0x4 level=4
+W/AlarmManager(  737): Set alarm: type= 2 triggerAtTime= 5855316 , called by : com.google.android.gms, intent:Intent { act=com.google.android.gms.nlp.ALARM_WAKEUP_LOCATOR }
+D/STATUSBAR-NetworkController(  935): refreshSignalCluster: data=-1 bt=false
+E/SMD     (  243): DCD OFF
+I/GAV2    (30104): Thread[GAThread,5,main]: No campaign data found.
+D/dalvikvm(  737): GC_CONCURRENT freed 2583K, 27% free 18528K/25212K, paused 18ms+9ms, total 187ms
+D/PackageManager(  737): [MSG] CHECK_PENDING_VERIFICATION
+D/PackageManager(  737): [MSG] CHECK_PENDING_VERIFICATION
+E/SMD     (  243): DCD OFF
+D/KeyguardUpdateMonitor(  935): received broadcast android.intent.action.BATTERY_CHANGED
+D/KeyguardUpdateMonitor(  935): handleBatteryUpdate
+D/BatteryService(  737): level:100, scale:100, status:5, health:2, present:true, voltage: 4331, temperature: 298, technology: Li-ion, AC powered:false, USB powered:true, Wireless powered:false, icon:17303000, invalid charger:0, online:4, current avg:0, charge type:1, power sharing:false, high voltage charger:false
+D/BatteryService(  737): Sending ACTION_BATTERY_CHANGED.
+W/AlarmManager(  737): Set alarm: type= 2 triggerAtTime= 12007968 , called by : com.google.android.gms, intent:Intent { act=com.google.android.gms.nlp.ALARM_WAKEUP_BURST_COLLECTION_TRIGGER }
+D/STATUSBAR-PhoneStatusBar(  935):  mBrightnessEnablebySettings = true mBrightnessEnablebyBattery = true mBrightnessEnablebyDisableFlag = true mPmsBrightnessEnablebySettings = true
+D/BatteryMeterView(  935): ACTION_BATTERY_CHANGED : level:100 status:5 health:2

@@ -21,11 +21,14 @@
 
     <!-- Own dependencies -->
     <script src="scripts/index.js"></script>
-    
     <script src="controllers/mainController.js"></script>
+    <script src="controllers/setupController.js"></script>
+    <script src="services/fileService.js"></script>
 
 </head>
-<body>
-    <p>Hello, your application is ready! <span>{{5+5}}</span></p>
+    <body ng-controller="mainController">
+        <p>Hello, your application is ready! <span>{{5+5}}</span></p>
+        <button ng-click="gotoStartup()">Goto startup</button>
+        <ng-view></ng-view>
 </body>
 </html>
