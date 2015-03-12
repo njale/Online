@@ -110,8 +110,10 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="controllers\loginController.js" />
     <Content Include="controllers\setupController.js" />
-    <Content Include="services\fileService.js" />
+    <Content Include="services\settingsService.js" />
+    <Content Include="views\login.html" />
     <Content Include="views\setup.html" />
     <Content Include="views\startup.html" />
     <Folder Include="images\" />

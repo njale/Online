@@ -4,7 +4,7 @@
 
     var app = angular.module("vegvesenApp");
 
-    app.controller("setupController", function ($scope, $location)
+    app.controller("setupController", function ($scope, $location, settingsService)
     {
         document.addEventListener('deviceready', onDeviceReady.bind(this), false);
 
@@ -14,19 +14,32 @@
             document.addEventListener('pause', onPause.bind(this), false);
             document.addEventListener('resume', onResume.bind(this), false);
 
-            $scope.$apply(function() {$location.path("/startup");});
+            getCredentials();
+        };
+
+        function getCredentials()
+        {
+            settingsService.ReadSettingsfile(onGetCredentials, onGetCredentialsFailed);
         };
 
 
+        function onGetCredentials(result)
+        {
+            console.log("Retrieved credentials: " + result);
+            var settings = JSON.parse(result);
+            
+            $scope.$apply(function () { $location.path("/startup"); });
+        }
+
+        function onGetCredentialsFailed(fileError) 
+        {
+            console.log("Failed to get credentials: " + fileError);
+            $scope.$apply(function () { $location.path("/login"); });
+        }
 
 
-        //var test = fileService.ReadSettingsfile(null, function () { console.log("Failed to open settings file"); });
-        //console.log(test);
     });
-
-
-
-
+    
     function onPause()
     {
         // TODO: This application has been suspended. Save application state here.
