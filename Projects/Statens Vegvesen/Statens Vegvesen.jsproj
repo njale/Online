@@ -140,7 +140,6 @@
     <Folder Include="res\icons\windows\" />
     <Folder Include="res\screens\android\" />
     <Folder Include="res\screens\ios\" />
-    <Folder Include="res\screens\windows\" />
     <Folder Include="res\screens\wp8\" />
   </ItemGroup>
   <ItemGroup>
@@ -233,7 +232,7 @@
     <Content Include="res\icons\windows\Square150x150Logo.scale-240.png" />
     <Content Include="res\icons\windows\Square44x44Logo.scale-240.png" />
     <Content Include="res\icons\windows\Square71x71Logo.scale-240.png" />
-    <Content Include="res\icons\windows\storelogo.png" />
+    <Content Include="res\icons\windows\StoreLogo.scale-100.png" />
     <Content Include="res\icons\windows\StoreLogo.scale-240.png" />
     <Content Include="res\icons\windows\Wide310x150Logo.scale-240.png" />
     <Content Include="res\icons\wp8\icon-62-tile.png" />
@@ -254,7 +253,7 @@
     <Content Include="res\screens\ios\screen-iphone-568h-2x.png" />
     <Content Include="res\screens\ios\screen-iphone-portrait.png" />
     <Content Include="res\screens\ios\screen-iphone-portrait-2x.png" />
-    <Content Include="res\screens\windows\splashscreen.png" />
+    <Content Include="res\screens\windows\SplashScreen.scale-100.png" />
     <Content Include="res\screens\windows\SplashScreen.scale-240.png" />
     <Content Include="res\screens\wp8\screen-portrait.jpg" />
   </ItemGroup>
@@ -277,8 +276,8 @@
     <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
     <TypeScriptSourceMap>false</TypeScriptSourceMap>
   </PropertyGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.MDA.targets" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\ApacheCordovaTools\vs-mda-targets\Microsoft.MDA.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\ApacheCordovaTools\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
   <PropertyGroup>
     <ProjectUISubcaption>Tools for Apache Cordova</ProjectUISubcaption>
   </PropertyGroup>
