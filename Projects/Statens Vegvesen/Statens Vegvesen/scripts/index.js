@@ -7,7 +7,8 @@
     "use strict";
 
     var app = angular.module("vegvesenApp", ["ngRoute", "settingsServices"]);
-    
+    app.constant("appSettings", {"Password": "password3"});
+
     app.config(function ($routeProvider)
     {
         $routeProvider.when("/setup", { templateUrl: "views/setup.html" });
