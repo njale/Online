@@ -6,8 +6,8 @@
 {
     "use strict";
 
-    var app = angular.module("vegvesenApp", ["ngRoute", "settingsServices"]);
-    app.constant("appSettings", {"Password": "password3"});
+    var app = angular.module("vegvesenApp", ["ngRoute", "settingsServices", "locationServices"]);
+    app.constant("appSettings", {"Password": "password"});
 
     app.config(function ($routeProvider)
     {
