@@ -36,10 +36,10 @@
 
             locationService.GetLocation(
                 function (locationData) {
-                    //if (JSON.stringify($scope.locationData) !== JSON.stringify(locationData)) {
+                    if (JSON.stringify($scope.locationData) !== JSON.stringify(locationData)) {
                         $scope.locationData = locationData;
                         $scope.changed = !$scope.changed;
-                    //}
+                    }
                 }, failFunc);
 
         }
