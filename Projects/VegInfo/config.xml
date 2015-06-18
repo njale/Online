@@ -12,3 +12,5 @@
   <vs:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
   <vs:platformSpecificValues />
 </widget>
+
+hallo
